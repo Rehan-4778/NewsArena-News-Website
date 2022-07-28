@@ -4,8 +4,8 @@ import loader from './loader.gif'
 export default class Spinner extends Component {
   render() {
     return (
-      <div style={{height:'60vh', display:'flex' , justifyContent:'center', alignItems:'center'}}>
-        <img src={loader} alt="loading" />
+      <div style={{display:'flex' , justifyContent:'center', alignItems:'center'}}>
+        <img style={{width: '2rem', height:'2rem'}} src={loader} alt="loading" />
       </div>
     )
   }
